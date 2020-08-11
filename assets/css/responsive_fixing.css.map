@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACC,SAAS,EAAE,IAAI",
+"sources": ["responsive_fixing.scss"],
+"names": [],
+"file": "responsive_fixing.css"
+}

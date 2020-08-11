@@ -1,0 +1,118 @@
+// component/_navigation.scss
+
+
+header {
+
+    nav {
+        position: fixed;
+        width: 100%;
+        line-height: 60px;
+        z-index: 999;
+        padding: 20px 0;
+        height: 90px;
+
+        &.shadow {
+            background-color: #CEE4F1;
+            // background-color: #F1F9FE;
+            transition: background-color 1s;
+            padding: 0;
+
+            .logo {
+                left: 0;
+                transition: ease-in-out 1s;
+            }
+
+            .menu {
+                right: 13%;
+                margin-top: -3.1%;
+                transition: ease-in-out 1s;
+            }
+        }
+
+        .menu-icon {
+            line-height: 60px;
+            width: 100%;
+            background: #000;
+            text-align: right;
+            box-sizing: border-box;
+            padding: 15px 24px;
+            cursor: pointer;
+            color: #fff;
+            display: none;
+        }
+
+        .logo {
+            line-height: 60px;
+            position: fixed;
+            float: left;
+            margin: 5px 46px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 2px;
+            left: 41%;
+            max-width: 150px;
+        }
+
+        .menu {
+            text-align: center;
+            width: 100%;
+            right: 38%;
+            top: -10%;
+            margin-top: -1.5%;
+            position: relative;
+        }
+
+        ul {
+            line-height: 60px;
+            list-style: none;
+            background: rgba(0, 0, 0, 0);
+            overflow: hidden;
+            color: #fff;
+            padding: 0;
+            text-align: right;
+            margin: 0;
+            padding-right: 40px;
+            transition: 1s;
+            font-family: $primary-font;
+
+            li {
+                display: inline-block;
+                padding: 0 25px;
+
+                .img-troli-nav {
+                    margin-right: 10px;
+                }
+
+                &.nav-search-bar {
+                    padding: 10px 30px;
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    a {
+                        img {
+                            width: 75%;
+                        }
+                    }
+                }
+
+                a {
+                    text-decoration: none !important;
+                    color: #fff;
+                    font-size: 16px;
+
+                    &.active {
+                        font-weight: bold;
+                    }
+
+
+                    &:hover {
+                        color: #FAFAFA !important;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

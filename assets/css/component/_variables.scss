@@ -1,0 +1,31 @@
+// component/_variables.scss
+
+@font-face {
+    font-family: 'CodecColdTrial-Regular';
+    src: url('../../new-codec/fonts/CodecColdTrial-Regular.woff') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Color Component
+$primary-color: #B7D8EB;
+$secondary-color:#FFCCBD;
+$third-color:#FFBE9E;
+$fourth-color:#A7D0E6;
+$black-color: #464646;
+$grey-color: #6E6E6E;
+
+// Font
+
+$primary-font: 'CodecColdTrial-Regular';
+$primary-font-extrabold:'codec_cold_trialextrabold';
+$primary-font-extrabold-italic:'codec_coldextrabold_italic';
+$secondary-font:'gothambold';
+$third-font: 'Lato',
+sans-serif;
+
+
+// Padding
+$padding-layout-one: 0 10%;
+$padding-layout-two: 0 7%;
+$padding-layout-three: 0 5%;
